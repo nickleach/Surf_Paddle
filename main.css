@@ -12,3 +12,35 @@ h1{
 	margin: 0 auto;
 	padding-top: 222px;
 	font-size: 80px;
+}
+/* logo image in top left*/
+ .logo-image{
+ 	text-align: left;
+	margin-top: 15px;
+	position: absolute;
+	padding-right: 15px;
+	padding-left: 140px
+}
+/* text next to logo*/
+.logo-text{
+	position: absolute;
+}
+.logo-text h3{
+	color: #0A3450;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	padding-left: 200px
+}
+/*search bar*/
+.search{
+	float: right;
+	margin-right: 190px
+}
+.search h3{
+	color: #072E47;
+	font-family: 'Oswald',sans-serif;
+	font-size: 17px
+}
+
+
+}
