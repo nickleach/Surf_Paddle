@@ -1,5 +1,6 @@
 body{
 	font-family: Open+Sans;
+  font-size: 62.5%
 }
 *{
 	box-sizing: border-box;
@@ -12,12 +13,12 @@ header {
 
 }
 h1{
-	    color: white;
+	color: white;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin: 0 auto;
   padding-top: 193px;
-  font-size: 100px;
+  font-size: 10em;
   font-weight: 700;
   padding-left: 82px;
   padding-bottom: 0;
@@ -26,15 +27,16 @@ h1{
 }
 /*Text under title*/
 h2{
-    color: #083350;
+ color: #083350;
   font-family: 'Open Sans', sans-serif;
   font-size: medium;
-  /* float: right; */
+  float: right;
   margin: 0;
-  padding-right: 419px;
-  position: absolute;
-  bottom: 56px;
+  padding-right: 417px;
+  /* position: absolute; */
+  /* bottom: 56px; */
   right: 0;
+  padding-top: 118px;
 }
 /* logo image in top left*/
  .logo-image{
