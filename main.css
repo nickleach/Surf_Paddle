@@ -1,22 +1,26 @@
+body{
+	font-family: Open+Sans;
+}
 header {
 	background-image: url("images/header.jpg");
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 522px;
-	
+
 }
 h1{
 	color: white;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	margin: 0 auto;
 	padding-top: 222px;
-	font-size: 80px;
-}
+	font-size: 100px;
+	font-weight: 700px;
+	}
 /* logo image in top left*/
  .logo-image{
  	text-align: left;
-	margin-top: 15px;
+	margin-top: 12px;
 	position: absolute;
 	padding-right: 15px;
 	padding-left: 140px
@@ -27,20 +31,25 @@ h1{
 }
 .logo-text h3{
 	color: #0A3450;
-	font-family: 'Oswald', sans-serif;
-	font-size: 20px;
-	padding-left: 200px
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	font-weight: bolder;
+	padding-left: 200px;
+	padding-top: 5px;
+
 }
 /*search bar*/
 .search{
-	float: right;
-	margin-right: 190px
+	  float: right;
+  margin-right: 96px;
+  padding-top: 20px;
 }
-.search h3{
-	color: #072E47;
-	font-family: 'Oswald',sans-serif;
-	font-size: 17px
+.search a{
+	  color: #072E47;
+  font-family: 'Oswald',sans-serif;
+  font-size: 18px;
+  padding-right: 15px;
+  text-decoration: none;
+  padding-top: 17px;
 }
 
-
-}
