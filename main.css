@@ -1,6 +1,9 @@
 body{
 	font-family: Open+Sans;
 }
+*{
+	box-sizing: border-box;
+}
 header {
 	background-image: url("images/header.jpg");
 	background-repeat: no-repeat;
@@ -9,14 +12,30 @@ header {
 
 }
 h1{
-	color: white;
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-	margin: 0 auto;
-	padding-top: 222px;
-	font-size: 100px;
-	font-weight: 700px;
-	}
+	    color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 193px;
+  font-size: 100px;
+  font-weight: 700;
+  padding-left: 82px;
+  padding-bottom: 0;
+  position: relative;
+  height: 100px
+}
+/*Text under title*/
+h2{
+    color: #083350;
+  font-family: 'Open Sans', sans-serif;
+  font-size: medium;
+  /* float: right; */
+  margin: 0;
+  padding-right: 419px;
+  position: absolute;
+  bottom: 56px;
+  right: 0;
+}
 /* logo image in top left*/
  .logo-image{
  	text-align: left;
@@ -40,16 +59,21 @@ h1{
 }
 /*search bar*/
 .search{
-	  float: right;
-  margin-right: 96px;
-  padding-top: 20px;
+	   float: right;
+  margin-right: 87px;
+  padding-top: 15px;
 }
 .search a{
 	  color: #072E47;
   font-family: 'Oswald',sans-serif;
   font-size: 18px;
-  padding-right: 15px;
   text-decoration: none;
-  padding-top: 17px;
+  font-weight: 400
+}
+.about{
+  padding-right: 11px;
+}
+.search img{
+  padding-left: 3px;
 }
 
