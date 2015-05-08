@@ -26,7 +26,7 @@ h1{
   height: 100px
 }
 /*Text under title*/
-h2{
+h4{
  color: #083350;
   font-family: 'Open Sans', sans-serif;
   font-size: medium;
@@ -61,12 +61,12 @@ h2{
 }
 /*search bar*/
 .search{
-	   float: right;
+	float: right;
   margin-right: 87px;
   padding-top: 15px;
 }
 .search a{
-	  color: #072E47;
+	color: #072E47;
   font-family: 'Oswald',sans-serif;
   font-size: 18px;
   text-decoration: none;
