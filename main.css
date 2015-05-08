@@ -25,7 +25,17 @@ h1{
   position: relative;
   height: 100px
 }
+h2{
+  color: #0A3451;
+  font-size: 60px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+}
 /*Text under title*/
+h3{
+  color: #0A5CA8;
+  border-left: 1px #C5C5C5;
+}
 h4{
  color: #083350;
   font-family: 'Open Sans', sans-serif;
@@ -33,10 +43,22 @@ h4{
   float: right;
   margin: 0;
   padding-right: 417px;
-  /* position: absolute; */
-  /* bottom: 56px; */
   right: 0;
   padding-top: 118px;
+}
+h5{
+  color: #BAC6CF;
+  float: right;
+  margin-top: 13px;
+  margin-right: 320px;
+  font-weight: 100;
+}
+h5 span{
+  text-decoration: underline;
+}
+p {
+  color: #626C73;
+  line-height: 24px
 }
 /* logo image in top left*/
  .logo-image{
@@ -78,4 +100,69 @@ h4{
 .search img{
   padding-left: 3px;
 }
+.content{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.blog1{
+  width: 63%;
+  float: left;
+  margin-right: 45px;
+  margin-left: auto
+
+}
+.blog-title{
+  margin-left: 35px;
+  margin-bottom: -23px;
+  font-size: 62px;
+}
+.blog-title2{
+  margin-left: 35px;
+  margin-top: 0px;
+  margin-bottom: -9px;
+  font-size: 64px;
+}
+.sidebar{
+  float: left;
+  width: 20%;
+  margin-left: 109px;
+  margin-top: 13px;
+  margin-right: auto;
+  margin-left: 45px
+}
+.big-author{
+  margin-left: 97px;
+  padding-bottom: 0;
+}
+.social{
+  padding-left: 55px;
+  margin-bottom: 47px;
+}
+.social p{
+  margin-left: 37px;
+  margin-bottom: 0;
+}
+.other-posts{
+  margin-top: 500px
+}
+.small-author{
+  width: 3.5%;
+  margin-left: 39px;
+}
+.author a{
+  text-decoration: none;
+  color: #1B6FB1;
+  font-size: 13px;
+  margin-left: 4px;
+}
+.article1{
+  margin-top: 41px;
+  margin-left: 35px;
+}
+.article1 p{
+margin-top: 30px;
+}
+
 
