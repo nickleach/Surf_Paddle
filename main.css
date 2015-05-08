@@ -1,6 +1,9 @@
 body{
-	font-family: Open+Sans;
+	font-family: 'Open Sans';
 /*  font-size: 62.5%*/
+}
+.container{
+  position: absolute;
 }
 *{
 	box-sizing: border-box;
@@ -34,7 +37,7 @@ h2{
 /*Text under title*/
 h3{
   color: #0A5CA8;
-  border-left: 1px #C5C5C5;
+  line-height: 50px;
 }
 h4{
  color: #083350;
@@ -71,6 +74,7 @@ p {
 /* text next to logo*/
 .logo-text{
 	position: absolute;
+  margin-top: -11px
 }
 .logo-text h3{
 	color: #0A3450;
@@ -145,7 +149,7 @@ p {
   margin-bottom: 0;
 }
 .other-posts{
-  margin-top: 500px
+ clear: both;
 }
 .small-author{
   width: 3.5%;
@@ -161,8 +165,19 @@ p {
   margin-top: 41px;
   margin-left: 35px;
 }
-.article1 p{
-margin-top: 30px;
+.article2{
+  margin-left: 35px;
 }
-
+.article1 p{
+font-weight: 500;
+margin-top: 30px;
+margin-bottom: 24px;
+}
+.borderleft{
+ border-left: solid 2px #C5C5C5;
+  height: 52px;
+  margin-left: 42px;
+  font-size: 24px;
+  padding-left: 15px;
+}
 
