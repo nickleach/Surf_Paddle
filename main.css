@@ -110,6 +110,7 @@ p {
   margin-right: auto;
   display: block;
 }
+/*left side*/
 .blog1{
   width: 63%;
   float: left;
@@ -128,25 +129,103 @@ p {
   margin-bottom: -9px;
   font-size: 64px;
 }
+.share-buttons{
+  position: relative;
+  margin-bottom: 185px;
+}
+.image-box1{
+  background-color: #5E686F;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  padding-right: 7px;
+  padding-left: 7px;
+  position: absolute;
+  display: inline-block;
+  top: 45px;
+  margin-left: 39px;
+
+}
+.image-box2{
+
+}
+.grey-box{
+  position: absolute;
+  top: 45px;
+  margin-left: 68px;
+}
+.grey-box h4{
+  background-color: #A4B3BE;
+  font-size: 13px;
+  color: white;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: middle;
+}
+.comments{
+
+}
+/*.comments-image{
+
+}*/
+.blue-box{
+
+}
+/*right side*/
 .sidebar{
   float: left;
   width: 20%;
   margin-left: 109px;
-  margin-top: 13px;
+  margin-top: 84px;
   margin-right: auto;
   margin-left: 45px
 }
 .big-author{
   margin-left: 97px;
-  padding-bottom: 0;
+  margin-bottom: -12px;
 }
 .social{
   padding-left: 55px;
   margin-bottom: 47px;
 }
 .social p{
+  color: #2878B6;
+  font-weight: 900;
   margin-left: 37px;
-  margin-bottom: 0;
+  margin-bottom: -4px;
+}
+.social span{
+  color: #A0B0BB;
+  padding-right: 10px;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.facebook{
+  margin-right: 10px
+}
+.twit{
+  margin-right: 13px;
+  margin-left: -12px;
+}
+.sidebar a{
+  color: #A0B0BB;
+  font-weight: bolder;
+  font-size: 13px;
+  float: right;
+  margin-right: -70px;
+  margin-top: 4px;
+}
+.sect-heading{
+  color: #1B70B2;
+  font-family: 'Oswald',sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 56px;
+  margin-bottom: -24px;
+}
+.side-article{
+  width: 130%;
+  font-size: 15px;
 }
 .other-posts{
  clear: both;
@@ -167,14 +246,15 @@ p {
 }
 .article2{
   margin-left: 35px;
+  margin-top: 26px
 }
 .article1 p{
-font-weight: 500;
-margin-top: 30px;
-margin-bottom: 24px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 24px;
 }
 .borderleft{
- border-left: solid 2px #C5C5C5;
+  border-left: solid 2px #C5C5C5;
   height: 52px;
   margin-left: 42px;
   font-size: 24px;
