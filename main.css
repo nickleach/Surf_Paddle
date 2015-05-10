@@ -1,6 +1,5 @@
 body{
-	font-family: 'Open Sans';
-/*  font-size: 62.5%*/
+	font-family: 'Open Sans',sans-serif;
 }
 .container{
   position: absolute;
@@ -156,7 +155,7 @@ p {
 /*section under blog*/
 .share-buttons{
   position: relative;
-  margin-bottom: 185px;
+  margin-bottom: 157px;
   margin-top: -9px;
 }
 /*comments image */
@@ -295,3 +294,55 @@ p {
   width: 3.5%;
   margin-left: 39px;
 }
+.other-posts h2{
+  text-align: center;
+  border-top: solid 2px #C5C5C5;
+  border-color: #EAEEF0;
+  padding-top: 24px;
+  font-size: 64px;
+  padding-left: 17px;
+  margin-bottom: 27px;
+}
+.bottom img{
+  margin: -2px;
+  margin-bottom: -5px;
+}
+.bottom{
+  width: 102%;
+}
+footer{
+  background-color: #083452;
+  height: 100px;
+  position:relative;
+  width: 102%
+}
+.footer-left{
+  position: absolute;
+  width: 366px;
+  top: 30px;
+  display: inline-block;
+  margin-left: 165px;
+}
+.footer-left h6{
+  color: #A4B3BE;
+  float: right;
+  margin-top: 13px;
+  font-size: 14px;
+  margin-left: 0px;
+}
+.footer-right{
+  position: absolute;
+  display: inline-block;
+  top: 38px;
+  right: 136px;
+}
+.navitems{
+  border-right: 1px solid #9CACB8;
+}
+.footer-right span{
+  color: #9CACB8;
+  padding-right: 7px;
+  padding-left: 7px;
+  font-size: 14px;
+}
+
