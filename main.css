@@ -23,9 +23,7 @@ h1{
   padding-top: 193px;
   font-size: 100px;
   font-weight: 700;
-  padding-left: 82px;
-  padding-bottom: 0;
-  position: relative;
+  padding-left: 15px;
   height: 100px
 }
 h2{
@@ -45,7 +43,7 @@ h4{
   font-size: medium;
   float: right;
   margin: 0;
-  padding-right: 417px;
+  padding-right: 475px;
   right: 0;
   padding-top: 118px;
 }
@@ -81,14 +79,13 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 17px;
 	font-weight: bolder;
-	padding-left: 200px;
-	padding-top: 5px;
+	padding-left: 197px;
 
 }
 /*search bar*/
 .search{
 	float: right;
-  margin-right: 87px;
+  margin-right: 145px;
   padding-top: 15px;
 }
 .search a{
@@ -123,16 +120,55 @@ p {
   margin-bottom: -23px;
   font-size: 62px;
 }
+/*author of blog and time*/
+.author a{
+  text-decoration: none;
+  color: #1B6FB1;
+  font-size: 13px;
+  margin-left: 4px;
+}
+.article1{
+  margin-top: 41px;
+  margin-left: 35px;
+}
+.article2{
+  margin-left: 35px;
+  margin-top: 26px
+}
+.article1 p{
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+.borderleft{
+  border-left: solid 2px #C5C5C5;
+  height: 52px;
+  margin-left: 42px;
+  font-size: 24px;
+  padding-left: 15px;
+}
 .blog-title2{
   margin-left: 35px;
   margin-top: 0px;
   margin-bottom: -9px;
   font-size: 64px;
 }
+/*section under blog*/
 .share-buttons{
   position: relative;
   margin-bottom: 185px;
+  margin-top: -9px;
 }
+/*comments image */
+.comments{
+  margin-left: 39px;
+
+}
+/*read later image*/
+.read{
+  margin-left: 209px;
+}
+/*first two image boxes*/
 .image-box1{
   background-color: #5E686F;
   padding-top: 5px;
@@ -142,16 +178,32 @@ p {
   position: absolute;
   display: inline-block;
   top: 45px;
-  margin-left: 39px;
 
 }
+/*last image box*/
 .image-box2{
-
+  background-color: #0A3451;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  padding-right: 7px;
+  padding-left: 7px;
+  position: absolute;
+  display: inline-block;
+  top: 45px;
+  margin-left: 345px
 }
-.grey-box{
+/*read comments box*/
+.no1{
   position: absolute;
   top: 45px;
-  margin-left: 68px;
+  margin-left: 30px;
+}
+/*read later box*/
+.no2{
+  position: absolute;
+  top:45px;
+  margin-left: 239px;
+
 }
 .grey-box h4{
   background-color: #A4B3BE;
@@ -162,14 +214,21 @@ p {
   padding-right: 15px;
   vertical-align: middle;
 }
-.comments{
-
+.blue-box h4{
+  background-color: #196EB1;
+  font-size: 13px;
+  color: white;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
 }
-/*.comments-image{
-
-}*/
+/*share this post box*/
 .blue-box{
-
+  position: absolute;
+  top: 45px;
+  margin-left: 374px;
 }
 /*right side*/
 .sidebar{
@@ -180,10 +239,12 @@ p {
   margin-right: auto;
   margin-left: 45px
 }
+/*big avatar picture*/
 .big-author{
   margin-left: 97px;
   margin-bottom: -12px;
 }
+/*social links*/
 .social{
   padding-left: 55px;
   margin-bottom: 47px;
@@ -234,30 +295,3 @@ p {
   width: 3.5%;
   margin-left: 39px;
 }
-.author a{
-  text-decoration: none;
-  color: #1B6FB1;
-  font-size: 13px;
-  margin-left: 4px;
-}
-.article1{
-  margin-top: 41px;
-  margin-left: 35px;
-}
-.article2{
-  margin-left: 35px;
-  margin-top: 26px
-}
-.article1 p{
-  font-weight: 500;
-  margin-top: 30px;
-  margin-bottom: 24px;
-}
-.borderleft{
-  border-left: solid 2px #C5C5C5;
-  height: 52px;
-  margin-left: 42px;
-  font-size: 24px;
-  padding-left: 15px;
-}
-
