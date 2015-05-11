@@ -166,10 +166,16 @@ p {
 .comments{
   margin-left: 39px;
 
+
 }
 /*read later image*/
 .read{
   margin-left: 209px;
+}
+.share{
+  position: absolute;
+  top: 45px;
+  margin-left: 374px;
 }
 /*first two image boxes*/
 .image-box1{
@@ -185,7 +191,10 @@ p {
 }
 /*last image box*/
 .image-box2{
-  background-color: #0A3451;
+  margin-left: 345px
+}
+.image-box3{
+  background-color: #5E686F;
   padding-top: 5px;
   padding-bottom: 1px;
   padding-right: 7px;
@@ -193,13 +202,12 @@ p {
   position: absolute;
   display: inline-block;
   top: 45px;
-  margin-left: 345px
 }
 /*read comments box*/
 .no1{
   position: absolute;
   top: 45px;
-  margin-left: 30px;
+  left: 69px
 }
 /*read later box*/
 .no2{
@@ -211,7 +219,7 @@ p {
 .grey-box h4{
   background-color: #A4B3BE;
   font-size: 13px;
-  color: white;
+  color: #FFFFFF;
   padding: 5px;
   padding-left: 15px;
   padding-right: 15px;
@@ -232,6 +240,16 @@ p {
   position: absolute;
   top: 45px;
   margin-left: 374px;
+}
+.grey-box h4:hover{
+  background-color: #106DB3;
+  color: white;
+}
+.image-box1:hover{
+  background-color: #083452;
+}
+.image-box3:hover{
+  background-color:#083452;
 }
 /*right side*/
 .sidebar{
