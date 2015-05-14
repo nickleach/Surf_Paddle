@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
   font-family: 'Open Sans',sans-serif; }
+=======
+  font-family: "Open Sans", sans-serif; }
+>>>>>>> sass
 
 .container {
   position: absolute; }
@@ -15,7 +19,11 @@ header {
 
 h1 {
   color: white;
+<<<<<<< HEAD
   font-family: 'Open Sans', sans-serif;
+=======
+  font-family: "Open Sans", sans-serif;
+>>>>>>> sass
   text-align: center;
   margin: 0 auto;
   padding-top: 193px;
@@ -27,7 +35,11 @@ h1 {
 h2 {
   color: #0A3451;
   font-size: 60px;
+<<<<<<< HEAD
   font-family: 'Oswald', sans-serif;
+=======
+  font-family: "Oswald", sans-serif;
+>>>>>>> sass
   font-weight: lighter; }
 
 /*Text under title*/
@@ -37,7 +49,11 @@ h3 {
 
 h4 {
   color: #083350;
+<<<<<<< HEAD
   font-family: 'Open Sans', sans-serif;
+=======
+  font-family: "Open Sans", sans-serif;
+>>>>>>> sass
   font-size: medium;
   float: right;
   margin: 0;
@@ -75,7 +91,11 @@ p {
 
 .logo-text h3 {
   color: #0A3450;
+<<<<<<< HEAD
   font-family: 'Open Sans', sans-serif;
+=======
+  font-family: "Open Sans", sans-serif;
+>>>>>>> sass
   font-size: 17px;
   font-weight: bolder;
   padding-left: 197px; }
@@ -88,17 +108,30 @@ p {
 
 .search a {
   color: #072E47;
+<<<<<<< HEAD
   font-family: 'Oswald',sans-serif;
+=======
+  font-family: "Oswald", sans-serif;
+>>>>>>> sass
   font-size: 18px;
   text-decoration: none;
   font-weight: 400; }
 
+<<<<<<< HEAD
 .about {
   padding-right: 11px; }
 
 .search img {
   padding-left: 3px; }
 
+=======
+.search img {
+  padding-left: 3px; }
+
+.about {
+  padding-right: 11px; }
+
+>>>>>>> sass
 .content {
   width: 80%;
   margin-left: auto;
@@ -120,7 +153,7 @@ p {
 /*author of blog and time*/
 .author a {
   text-decoration: none;
-  color: #1B6FB1;
+  color: #626C72;
   font-size: 13px;
   margin-left: 4px; }
 
@@ -128,6 +161,7 @@ p {
   margin-top: 41px;
   margin-left: 35px; }
 
+<<<<<<< HEAD
 .article2 {
   margin-left: 35px;
   margin-top: 26px; }
@@ -135,11 +169,21 @@ p {
 .article2 p {
   color: #626C72; }
 
+=======
+>>>>>>> sass
 .article1 p {
   margin-top: 30px;
   margin-bottom: 24px;
   color: #626C72; }
 
+<<<<<<< HEAD
+=======
+.article2 {
+  margin-left: 35px;
+  margin-top: 26px p;
+  margin-top-color: #626C72; }
+
+>>>>>>> sass
 .borderleft {
   border-left: solid 2px #C5C5C5;
   height: 52px;
@@ -173,7 +217,11 @@ p {
   margin-left: 374px; }
 
 /*first two image boxes*/
+<<<<<<< HEAD
 .image-box1 {
+=======
+.image-box1, .image-box3 {
+>>>>>>> sass
   background-color: #5E686F;
   padding-top: 5px;
   padding-bottom: 1px;
@@ -187,6 +235,7 @@ p {
 .image-box2 {
   margin-left: 345px; }
 
+<<<<<<< HEAD
 .image-box3 {
   background-color: #5E686F;
   padding-top: 5px;
@@ -197,11 +246,17 @@ p {
   display: inline-block;
   top: 45px; }
 
+=======
+>>>>>>> sass
 /*read comments box*/
 .no1 {
   position: absolute;
   top: 45px;
+<<<<<<< HEAD
   left: 69px; }
+=======
+  margin-left: 69px; }
+>>>>>>> sass
 
 /*read later box*/
 .no2 {
@@ -209,6 +264,7 @@ p {
   top: 45px;
   margin-left: 239px; }
 
+<<<<<<< HEAD
 .grey-box h4 {
   background-color: #A4B3BE;
   font-size: 13px;
@@ -233,12 +289,41 @@ p {
   position: absolute;
   top: 45px;
   margin-left: 374px; }
+=======
+/*share this post box*/
+.blue-box {
+  position: absolute;
+  top: 45px;
+  margin-left: 374px; }
+
+.blue-box h4 {
+  background-color: #196EB1;
+  color: white;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: middle;
+  font-size: 13px; }
+
+.grey-box h4 {
+  background-color: #A4B3BE;
+  color: #FFFFFF;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: middle;
+  font-size: 13px; }
+>>>>>>> sass
 
 .grey-box h4:hover {
   background-color: #106DB3;
   color: white; }
 
+<<<<<<< HEAD
 .image-box1:hover {
+=======
+.image-box1:hover, .image-box3:hover {
+>>>>>>> sass
   background-color: #083452; }
 
 .image-box3:hover {
@@ -251,7 +336,17 @@ p {
   margin-left: 109px;
   margin-top: 84px;
   margin-right: auto;
+<<<<<<< HEAD
   margin-left: 45px; }
+=======
+  margin-left: 45px a;
+  margin-left-color: #A0B0BB;
+  margin-left-font-weight: bolder;
+  margin-left-font-size: 13px;
+  margin-left-float: right;
+  margin-left-margin-right: -70px;
+  margin-left-margin-top: 4px; }
+>>>>>>> sass
 
 /*big avatar picture*/
 .big-author {
@@ -282,6 +377,7 @@ p {
   margin-right: 13px;
   margin-left: -12px; }
 
+<<<<<<< HEAD
 .sidebar a {
   color: #A0B0BB;
   font-weight: bolder;
@@ -290,9 +386,11 @@ p {
   margin-right: -70px;
   margin-top: 4px; }
 
+=======
+>>>>>>> sass
 .sect-heading {
   color: #1B70B2;
-  font-family: 'Oswald',sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 18px;
   font-weight: 400;
   margin-top: 56px;
@@ -314,10 +412,13 @@ p {
 .other-posts {
   clear: both; }
 
+<<<<<<< HEAD
 .small-author {
   width: 3.5%;
   margin-left: 39px; }
 
+=======
+>>>>>>> sass
 .other-posts h2 {
   text-align: center;
   border-top: solid 2px #C5C5C5;
@@ -327,14 +428,27 @@ p {
   padding-left: 17px;
   margin-bottom: 27px; }
 
+<<<<<<< HEAD
 .bottom img {
   width: 100%;
   margin-bottom: -5px; }
+=======
+.small-author {
+  width: 3.5%;
+  margin-left: 39px; }
+>>>>>>> sass
 
 .bottom {
   width: 102%;
   position: relative; }
 
+<<<<<<< HEAD
+=======
+.bottom img {
+  width: 100%;
+  margin-bottom: -5px; }
+
+>>>>>>> sass
 .bottom:after {
   clear: left;
   content: "";
@@ -344,6 +458,24 @@ p {
   position: relative;
   float: left; }
 
+<<<<<<< HEAD
+=======
+.pics span {
+  position: absolute;
+  bottom: 43px;
+  width: 203px; }
+
+.pics h3 {
+  color: #083350;
+  position: absolute;
+  font-family: "Oswald", sans-serif;
+  bottom: -28px;
+  font-size: 30px;
+  left: 17px;
+  font-weight: lighter;
+  z-index: 1; }
+
+>>>>>>> sass
 .pics:after {
   background: #0E75BD;
   color: black;
@@ -358,6 +490,7 @@ p {
 .pics:hover:after {
   opacity: 0; }
 
+<<<<<<< HEAD
 .pics h3 {
   color: #083350;
   position: absolute;
@@ -373,6 +506,8 @@ p {
   bottom: 43px;
   width: 203px; }
 
+=======
+>>>>>>> sass
 .pics:hover h3 {
   color: white; }
 
@@ -402,11 +537,20 @@ footer {
   top: 35px;
   right: 160px; }
 
+<<<<<<< HEAD
 .navitems {
   border-right: 1px solid #9CACB8; }
 
+=======
+>>>>>>> sass
 .footer-right span {
   color: #9CACB8;
   padding-right: 10px;
   padding-left: 10px;
   font-size: 13px; }
+<<<<<<< HEAD
+=======
+
+.navitems {
+  border-right: 1px solid #9CACB8; }
+>>>>>>> sass
