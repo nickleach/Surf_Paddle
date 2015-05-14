@@ -1,5 +1,19 @@
-$bodyFont: 'Open Sans',sans-serif;
-$otherFont: 'Oswald', sans-serif;
+$bodyFont: 'Open Sans',sans-serif; // font 1
+$otherFont: 'Oswald', sans-serif; //font 2
+$pColor:#626C72; //paragraph color
+$buttonHover: #083452;// button hover color
+//social buttons mixins
+@mixin imageBoxes($left){
+  top: 45px;
+  margin-left: $left;
+}
+@mixin textBox(){
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: middle;
+  font-size: 13px;
+}
 body{
 	font-family: $bodyFont;
 }
@@ -54,9 +68,9 @@ h5{
   margin-top: 13px;
   margin-right: 320px;
   font-weight: 100;
-}
-h5 span{
-  text-decoration: underline;
+    span{
+    text-decoration: underline;
+  }
 }
 p {
   color: #626C73;
@@ -126,7 +140,7 @@ p {
 .author {
     a{
     text-decoration: none;
-    color: #1B6FB1;
+    color: $pColor;
     font-size: 13px;
     margin-left: 4px;
     }
@@ -137,14 +151,14 @@ p {
     p{
     margin-top: 30px;
     margin-bottom: 24px;
-    color: #626C72;
+    color: $pColor;
     }
 }
 .article2{
   margin-left: 35px;
   margin-top: 26px
     p{
-    color: #626C72;
+    color: $pColor;
     }
 }
 .borderleft{
@@ -198,53 +212,35 @@ p {
   margin-left: 345px
 }
 .image-box3{
-  background-color: #5E686F;
-  padding-top: 5px;
-  padding-bottom: 1px;
-  padding-right: 7px;
-  padding-left: 7px;
-  position: absolute;
-  display: inline-block;
-  top: 45px;
+  @extend .image-box1;
 }
 /*read comments box*/
 .no1{
   position: absolute;
-  top: 45px;
-  left: 69px
+ @include imageBoxes(69px);
 }
 /*read later box*/
 .no2{
   position: absolute;
-  top:45px;
-  margin-left: 239px;
+  @include imageBoxes(239px);
 
 }
 /*share this post box*/
 .blue-box{
   position: absolute;
-  top: 45px;
-  margin-left: 374px;
+  @include imageBoxes(374px);
   h4{
     background-color: #196EB1;
-    font-size: 13px;
     color: white;
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: inline-block;
-    vertical-align: middle;
+    @include textBox();
+
   }
 }
 .grey-box{
   h4{
   background-color: #A4B3BE;
-  font-size: 13px;
   color: #FFFFFF;
-  padding: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
-  vertical-align: middle;
+  @include textBox();
   }
   h4:hover{
   background-color: #106DB3;
@@ -252,10 +248,10 @@ p {
   }
 }
 .image-box1:hover{
-  background-color: #083452;
+  background-color: $buttonHover;
 }
 .image-box3:hover{
-  background-color:#083452;
+  background-color: $buttonHover;
 }
 /*right side*/
 .sidebar{
